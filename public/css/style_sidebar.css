@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #FFFFFF;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    width: 250px;
+    position: fixed;
+    overflow-y: auto;
+    height: 100%;
+    /* position: sticky; */
+}
+
+.container-fluid {
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.garis_sidebar {
+    color: #A6AFCA;
+}
+
+.sidebar-header .navbar-brand {
+    padding: 0;
+}
+
+.role {
+    background-color: #DC2626;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.sidebar-header .navbar-brand span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+
+}
+.nav-p {
+    margin-bottom: 0px;
+}
+.sidebar ul li a {
+    padding: 15px 20px;
+    text-decoration: none;
+    /* color: #A6AFCA; */
+}
+.no-btn {
+    color: #A6AFCA;
+}
+
+.btn-dd {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #A6AFCA;
+    width: 100%;
+}
+
+.btn-dd .ms-auto {
+    margin-left: auto;
+}
+
+
+.nav-link:hover {
+    background-color: #FECACA;
+    color: #991B1B;
+
+}
+
+.nav-link:focus {
+    background-color: #FECACA;
+    color: #991B1B;
+}
+
+.nav-p {
+    color: #991B1B;
+  transition: transform 0.15s ;
+
+}

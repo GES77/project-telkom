@@ -1,0 +1,122 @@
+body {
+    background-color: #F4F7FE;
+}
+.btn-tu {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #F43F5E;
+    border: none;
+}
+
+.add-user {
+    margin-left: auto;
+}
+.file-label {
+    display: flex;
+    align-items: center;
+}
+
+.file-button {
+    padding: 8px 20px;
+    background-color: white;
+    border: 1px solid #98989A;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.file-button:hover {
+    padding: 8px 20px;
+    background-color: #F43F5E;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-right: 10px;
+}
+
+.file-info {
+    font-size: 14px;
+    color: #999;
+}
+label {
+    font-weight: bold;
+}
+.file-info {
+    font-weight: normal;
+}
+
+.btn-tu .ms-auto {
+    margin-left: auto;
+}
+
+.nav-tu:hover {
+    background-color: #B91C1C;
+    /* color: #991B1B; */
+}
+
+.column-head {
+    background-color: aqua;
+}
+table.rounded-table {
+    border-collapse: collapse; /* Use separate to enable border-radius */
+    border-spacing: 0;
+}
+
+table.rounded-table th,
+table.rounded-table td {
+    border: none; /* Remove borders */
+}
+
+/* AKSI */
+.btn-hapus {
+    background-color: #EF4444;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-download {
+    background-color: #E99E46;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-edit {
+    background-color: #3ED556;
+    color: white;
+    font-weight: bold;
+}
+.btn-preview {
+    background-color: #4982C6;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-hapus:hover {
+    background-color: #B91C1C;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-download:hover {
+    background-color: #c4751a;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-edit:hover {
+    background-color: #0f9125;
+    color: white;
+    font-weight: bold;
+}
+.btn-preview:hover {
+    background-color: #2D609C;
+    color: white;
+    font-weight: bold;
+}
+/* AKSI */
+
+
